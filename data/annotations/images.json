@@ -1,0 +1,142 @@
+[
+  {
+    "file_name": "0_dress.jpg",
+    "category_id": "1",
+    "height": 450,
+    "width": 300,
+    "id": 0
+  },
+  {
+    "file_name": "1_top.jpg",
+    "category_id": "2",
+    "height": 450,
+    "width": 300,
+    "id": 1
+  },
+  {
+    "file_name": "2_pants.jpg",
+    "category_id": "3",
+    "height": 450,
+    "width": 300,
+    "id": 2
+  },
+  {
+    "file_name": "3_shoes.jpg",
+    "category_id": "4",
+    "height": 450,
+    "width": 300,
+    "id": 3
+  },
+  {
+    "file_name": "4_dress.jpg",
+    "category_id": "1",
+    "height": 450,
+    "width": 300,
+    "id": 4
+  },
+  {
+    "file_name": "5_top.jpg",
+    "category_id": "2",
+    "height": 450,
+    "width": 300,
+    "id": 5
+  },
+  {
+    "file_name": "6_pants.jpg",
+    "category_id": "3",
+    "height": 450,
+    "width": 300,
+    "id": 6
+  },
+  {
+    "file_name": "7_shoes.jpg",
+    "category_id": "4",
+    "height": 450,
+    "width": 300,
+    "id": 7
+  },
+  {
+    "file_name": "8_dress.jpg",
+    "category_id": "1",
+    "height": 450,
+    "width": 300,
+    "id": 8
+  },
+  {
+    "file_name": "9_top.jpg",
+    "category_id": "2",
+    "height": 450,
+    "width": 300,
+    "id": 9
+  },
+  {
+    "file_name": "10_pants.jpg",
+    "category_id": "3",
+    "height": 450,
+    "width": 300,
+    "id": 10
+  },
+  {
+    "file_name": "11_shoes.jpg",
+    "category_id": "4",
+    "height": 450,
+    "width": 300,
+    "id": 11
+  },
+  {
+    "file_name": "12_dress.jpg",
+    "category_id": "1",
+    "height": 450,
+    "width": 300,
+    "id": 12
+  },
+  {
+    "file_name": "13_top.jpg",
+    "category_id": "2",
+    "height": 450,
+    "width": 300,
+    "id": 13
+  },
+  {
+    "file_name": "14_pants.jpg",
+    "category_id": "3",
+    "height": 450,
+    "width": 300,
+    "id": 14
+  },
+  {
+    "file_name": "15_shoes.jpg",
+    "category_id": "4",
+    "height": 450,
+    "width": 300,
+    "id": 15
+  },
+  {
+    "file_name": "16_dress.jpg",
+    "category_id": "1",
+    "height": 450,
+    "width": 300,
+    "id": 16
+  },
+  {
+    "file_name": "17_top.jpg",
+    "category_id": "2",
+    "height": 450,
+    "width": 300,
+    "id": 17
+  },
+  {
+    "file_name": "18_pants.jpg",
+    "category_id": "3",
+    "height": 450,
+    "width": 300,
+    "id": 18
+  },
+  {
+    "file_name": "19_shoes.jpg",
+    "category_id": "4",
+    "height": 450,
+    "width": 300,
+    "id": 19
+  }
+]

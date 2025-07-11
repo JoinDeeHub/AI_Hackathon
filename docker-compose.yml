@@ -1,0 +1,57 @@
+version: '3.8'
+
+services:
+  backend:
+    build: .
+    command: 
+      - /bin/sh
+      - -c
+      - |
+        echo "Waiting for backend to initialize..."
+        sleep 30
+        uvicorn backend.main:app --host 0.0.0.0 --port 8000
+    environment:
+      - FIREBASE_CONFIG=${FIREBASE_CONFIG}
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+    working_dir: /app
+    networks:
+      - resyle-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 20s
+      timeout: 10s
+      retries: 6
+      start_period: 120s  # Extended start period
+
+  frontend:
+    build: .
+    command: 
+      - /bin/sh
+      - -c
+      - |
+        echo "Waiting for backend to be healthy..."
+        while ! curl -s http://backend:8000/health >/dev/null; do
+          sleep 5
+        done
+        streamlit run frontend/app.py
+    environment:
+      - API_URL=http://backend:8000
+      - FIREBASE_CONFIG=${FIREBASE_CONFIG}
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data:/app/data
+    working_dir: /app
+    depends_on:
+      - backend
+    env_file:
+      - .env
+    networks:
+      - resyle-network
+
+networks:
+  resyle-network:
+    driver: bridge
