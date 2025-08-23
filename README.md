@@ -1,6 +1,6 @@
 # AI_𝐇𝐚𝐜𝐤𝐚𝐭𝐡𝐨𝐧
 𝐅𝐢𝐧𝐚𝐥 𝐏𝐫𝐨𝐣𝐞𝐜𝐭 for 𝐀𝐈 𝐇𝐚𝐜𝐤𝐚𝐭𝐡𝐨𝐧
-# ♻️ ReStyleAI – Circular Fashion Platform
+# ♻️ ReStyleAI – AI Powered Circular Fashion Platform
 
 **ReStyleAI** is an AI-powered platform that promotes circular fashion by helping users match their existing clothes with sustainable alternatives. It aims to reduce textile waste, support ethical production, and raise awareness about fashion's environmental footprint.
 
